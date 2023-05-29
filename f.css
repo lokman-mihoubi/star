@@ -1,0 +1,36 @@
+.navbar {
+  position: sticky;
+  background-image: linear-gradient(to right,#3A98B9,#3A98B9);
+		}
+		.navbar-brand {
+			font-size: 2rem;
+			font-weight: bold;
+		}
+    .navbar-brand{
+      padding: 20px 0;
+    }
+		.navbar-brand .img-fluid {
+
+      width: 100%;
+			height: 50px;
+      border-radius: 50%;
+		}
+		.nav-link {
+			font-size: 1.5rem;
+		}
+    .navbar li {
+      padding-right: 30px;
+    }
+    .nav-item:hover::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: #fff;
+    }
+    .nav-link{
+      font-size:26px;
+    }
+    .nav-link:hover{
+      color: #D5B4B4 !important;
+    }
